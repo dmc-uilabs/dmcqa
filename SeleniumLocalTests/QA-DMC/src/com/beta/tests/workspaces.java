@@ -5,22 +5,24 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.awt.Robot;
 import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
+//import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.lang.reflect.Field;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Keys;
 import java.awt.*;
 
 //import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
+//import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 
 //import org.openqa.selenium.remote.RemoteWebDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
@@ -35,14 +37,30 @@ public class workspaces
 		//User Credentials
         String Selenium_User1 = System.getenv("Selenium_User1");
         String Selenium_Pass1 = System.getenv("Selenium_Pass1");
+
+        //System.out.println(Selenium_User1);
+        //System.out.println(Selenium_Pass1);
+        
         
         //Site to test
-        String sitePrefix = "portal";
+        String sitePrefix = "beta";
         String siteURL = ".opendmc.org";
-        String sitePreAndURL = sitePrefix + siteURL;
+        String sitePreAndURL = "https://" + sitePrefix + siteURL;
         
-        //Pictures for uploading
-        String profilePictureLocation = "/home/m/Pictures/default.jpg";
+        //Local Document Locations
+        String profilePictureLocation = "/home/marson/Pictures/defaultProfilePicture.png";
+        String companyLogo = "null";
+        String companyPicture = "null";
+        String companyVideo = "null";
+        String workspaceCreationDoc = "null";
+        String workspaceDoc1 = "null";
+        String workspaceDoc2 = "null";
+        String applicationDoc1 = "null";
+        String applicationDoc2 = "null";
+        String applicationDoc3 = "null";
+        String applicationDoc4 = "null";
+        String serviceApplicationDoc = "null";
+        String serviceApplicationPicture = "null";
         
         //Workspaces
         String workspacePrivate = "Private Workspace4";
@@ -52,7 +70,7 @@ public class workspaces
         for (int i = 0; i < 1; i++)
     	{
 	        //Set Path to Browser Driver
-	        System.setProperty("webdriver.chrome.driver", "/home/m/Downloads/chromedriver");
+	        System.setProperty("webdriver.chrome.driver", "/home/marson/Downloads/chromedriver");
 	        //System.setProperty("webdriver.gecko.driver", "/home/m/Downloads/geckodriver");
 	        //String userAgent = "Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; GTB7.4; InfoPath.2; SV1; .NET CLR 3.3.69573; WOW64; en-US)";
 	        //ChromeOptions co = new ChromeOptions();
@@ -69,20 +87,17 @@ public class workspaces
 	        WebDriverWait wait = new WebDriverWait(driver, 10);
 	
 	        //Maximize browser
-	        //driver.manage().window().maximize();
-	        //driver2.manage().window().maximize();
+	        //driver.manage().window().maximize();	        
 	
 	        //Open a _.opendmc.org website
-	        driver.get("https://" + sitePreAndURL + "/#/");
-	        //driver2.get("https://" + siteURL + "/#/");
+	        driver.get(sitePreAndURL + "/#/");      
 	        
 	        //Login Function logs into site via google
 	        login(driver, Selenium_User1, Selenium_Pass1, wait);
-	        //login(driver2, Selenium_User2, Selenium_Pass2, wait);
 	
 	        //Test WorkSpaces
-	        //workspaces(driver, wait, workspacePrivate, workspacePublicAll, workspacePublicWithInvite);
-	        //workspaces(driver2, wait, workspacePrivate, workspacePublicAll, workspacePublicWithInvite);
+	        //workspace(driver, wait, workspacePrivate, workspacePublicAll, workspacePublicWithInvite);
+	        //workspace(driver2, wait, workspacePrivate, workspacePublicAll, workspacePublicWithInvite);
 	
 	        //Check that rest/companies endpoint can be reached
 	        //restCompanies(driver, wait, sitePreAndURL);
@@ -96,7 +111,7 @@ public class workspaces
 	        //Logout of DMC
 	        //logout(driver, wait);
 	        
-	        //driver.close();
+	        driver.close();
     	}
     	
     	System.out.println("Score \n Login \t My Organization \t My Workspaces \t /rest/companies \n Score1 \t Score2 \t Score3 \t Score4");
@@ -116,6 +131,7 @@ public class workspaces
 
         //Log in using Google
         //Enter User Name
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("Email"))); 
         driver.findElement(By.id("Email")).sendKeys(Selenium_User1);
         driver.findElement(By.id("next")).click();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -134,7 +150,7 @@ public class workspaces
         //driver.findElement(By.cssSelector("#my-projects-page > div.md-open-menu-container.md-whiteframe-z2.md-default-theme.md-active.md-clickable > md-menu-content > md-menu-item:nth-child(7) > button")).click();
     }
 
-    public static void workspaces(WebDriver driver, WebDriverWait wait, String workspacePrivate, String workspacePublicAll, String workspacePublicWithInvite)
+    public static void workspace(WebDriver driver, WebDriverWait wait, String workspacePrivate, String workspacePublicAll, String workspacePublicWithInvite)
     {
         //Go to my workspaces
         //driver.findElement(By.xpath("/html/body/div[1]/header/div[1]/div/div/div[3]/md-menu/button")).click();
@@ -240,7 +256,7 @@ public class workspaces
     public static void restCompanies(WebDriver driver, WebDriverWait wait, String sitePreAndURL)
     {
     	//URL is entered to visit ~.opendmc.org/rest/companies
-    	driver.get("https://" + sitePreAndURL + "/rest/companies");
+    	driver.get(sitePreAndURL + "/rest/companies");
     	
     	//boolean exists = driver.findElements(By.xpath("/html/body/pre/text()") ).size() != 0;
     	////driver.getPageSource().contains("General Electric");
@@ -269,7 +285,7 @@ public class workspaces
     public static void myOrganization(WebDriver driver, WebDriverWait wait, String sitePreAndURL)
     {	
     	//Go back to Home page
-    	driver.get("https://" + sitePreAndURL + "/#/");
+    	driver.get(sitePreAndURL + "/#/");
     	
     	//For when My Organization is in the header
     	//visitMyOrgMethod1(driver, wait);
@@ -321,7 +337,7 @@ public class workspaces
     public static void userProfile(WebDriver driver, WebDriverWait wait, String sitePreAndURL, String profilePictureLocation)
     {
     	//Visit home page
-    	driver.get("https://" + sitePreAndURL + "/#/");
+    	driver.get(sitePreAndURL + "/#/");
     	
     	//Go to Profile Page
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("body > div.ng-isolate-scope > header > div.top-header.header-padding.layout.layout-row > div > div > div.layout.layout-column > md-menu > button > span")));
@@ -366,79 +382,111 @@ public class workspaces
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("body > div.ng-scope > div > md-content > div.layout.layout-row > div.flex.flex-20 > div.layout.layout-column > div > div.content-panel-body.layout.layout-row.layout-align-space-between-start.layout-wrap > md-content")));
         driver.findElement(By.cssSelector("body > div.ng-scope > div > md-content > div.layout.layout-row > div.flex.flex-20 > div.layout.layout-column > div > div.content-panel-body.layout.layout-row.layout-align-space-between-start.layout-wrap > md-content")).click();   
    
+        fileLocationUpload(profilePictureLocation);
+        
+    	//Save
+   	
+    	//Check Elements were saved
+    }
+    public static void fileLocationUpload(String documentLocation)
+    {
         try
-        {
-	        Robot robot = new Robot();
-	    	robot.delay(1000);
-	    	robot.keyPress(KeyEvent.VK_DOWN);
-          	robot.keyRelease(KeyEvent.VK_DOWN);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_SLASH);
-          	robot.keyRelease(KeyEvent.VK_SLASH);
-	    	robot.delay(1000);	    	
-          	robot.keyPress(KeyEvent.VK_H);
-          	robot.keyRelease(KeyEvent.VK_H);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_RIGHT);
-          	robot.keyRelease(KeyEvent.VK_RIGHT);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_M);
-          	robot.keyRelease(KeyEvent.VK_M);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_RIGHT);
-          	robot.keyRelease(KeyEvent.VK_RIGHT);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_SHIFT);
-          	robot.keyPress(KeyEvent.VK_P);
-          	robot.keyRelease(KeyEvent.VK_P);
-          	robot.keyRelease(KeyEvent.VK_SHIFT);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_I);
-          	robot.keyRelease(KeyEvent.VK_I);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_C);
-          	robot.keyRelease(KeyEvent.VK_C);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_T);
-          	robot.keyRelease(KeyEvent.VK_T);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_RIGHT);
-          	robot.keyRelease(KeyEvent.VK_RIGHT);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_D);
-          	robot.keyRelease(KeyEvent.VK_D);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_E);
-          	robot.keyRelease(KeyEvent.VK_E);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_F);
-          	robot.keyRelease(KeyEvent.VK_F);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_A);
-          	robot.keyRelease(KeyEvent.VK_A);
-	    	robot.delay(1000);
-	    	robot.keyPress(KeyEvent.VK_DOWN);
-          	robot.keyRelease(KeyEvent.VK_DOWN);
-	    	robot.delay(1000);
-          	robot.keyPress(KeyEvent.VK_DOWN);
-          	robot.keyRelease(KeyEvent.VK_DOWN);
-	    	robot.delay(1000);
-	    	robot.keyPress(KeyEvent.VK_ENTER);
-          	robot.keyRelease(KeyEvent.VK_ENTER);
-	    	robot.delay(1000);
-	    	robot.keyPress(KeyEvent.VK_ENTER);
-          	robot.keyRelease(KeyEvent.VK_ENTER);
-	    	robot.delay(1000);
+        {   
+        	//System.out.println("About to press down.");
+        	Robot robot1 = new Robot();
+        	robot1.delay(1000);
+        	robot1.keyPress(KeyEvent.VK_DOWN);
+        	robot1.keyRelease(KeyEvent.VK_DOWN);
+        	robot1.delay(1000);
+        	//System.out.println("Pressed down already.");
         }
         catch (Exception e)
         {
         	e.printStackTrace();
         }
 
+        //System.out.println("Typing out file location.");
+
+        for(int i = 0; i < documentLocation.length(); i++)
+    	{
+	        try
+	        {
+		        Robot robot = new Robot();
+		        //robot.delay(1000);
+	            //char letter = '/';
+	            char letter = documentLocation.charAt(i);
+
+	            if (letter != '/' && letter != '.' && letter != ' ' && letter != '-' && letter != '_')
+	            {
+		            //System.out.println("I'm inside the IF! ...Somehow.");
+	            	boolean upperCase = Character.isUpperCase(letter);
+		            char upperLetter = Character.toUpperCase(letter);
+		            String variableName = "VK_" + upperLetter;
+		            Class clazz = KeyEvent.class;
+		            Field field = clazz.getField( variableName );
+		            int keyCode = field.getInt(null);
+		            
+		            if (upperCase) robot.keyPress( KeyEvent.VK_SHIFT );
+	            	robot.keyPress( keyCode );
+		            robot.keyRelease( keyCode );
+		            if (upperCase) robot.keyRelease( KeyEvent.VK_SHIFT );
+	            }
+
+	            if (letter == '/')
+	            {
+	            	robot.keyPress( KeyEvent.VK_SLASH );
+	            	robot.keyRelease( KeyEvent.VK_SLASH );
+	            }
+	            
+	            if (letter == '.')
+	            {
+	            	robot.keyPress( KeyEvent.VK_PERIOD );
+	            	robot.keyRelease( KeyEvent.VK_PERIOD );
+	            }
+	            
+//	            if (letter == '\')
+//	            {
+//	            	robot.keyRelease( KeyEvent.VK_QUOTE );
+//	            }
+	            
+	            if (letter == ' ')
+		        {
+		            robot.keyPress( KeyEvent.VK_SPACE );
+	            	robot.keyRelease( KeyEvent.VK_SPACE );
+		        }
+	            
+	            if (letter == '-')
+		        {
+		            robot.keyPress( KeyEvent.VK_MINUS );
+	            	robot.keyRelease( KeyEvent.VK_MINUS );
+		        }
+	            
+	            if (letter == '_')
+		        {
+		            robot.keyPress( KeyEvent.VK_UNDERSCORE );
+	            	robot.keyRelease( KeyEvent.VK_UNDERSCORE );
+		        }
+	            
+	        }
+	        catch(Exception e)
+	        {
+	            System.out.println(e);
+	        }
+    	}
         
-    	//Save
-    	
-    	
-    	//Check Elements were saved
+        try
+        {
+	        Robot robot2 = new Robot();
+	    	robot2.keyPress(KeyEvent.VK_ENTER);
+		  	robot2.keyRelease(KeyEvent.VK_ENTER);
+			robot2.delay(1000);
+			robot2.keyPress(KeyEvent.VK_ENTER);
+		  	robot2.keyRelease(KeyEvent.VK_ENTER);
+			robot2.delay(1000);
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
     }
 }
