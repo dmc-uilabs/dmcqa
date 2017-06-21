@@ -103,8 +103,8 @@ public class testBatch2 {
 			 driver.findElement(By.xpath("//*[@id='input_44']")).sendKeys("DMCIntern");
 			 */ 
 			//Location 
-			 driver.findElement(By.xpath("//*[@id='input_46']")).clear();
-			 driver.findElement(By.xpath("//*[@id='input_46']")).sendKeys("UI LABS TEST");
+			 driver.findElement(By.xpath("//*[@id='input_97']")).clear();
+			 driver.findElement(By.xpath("//*[@id='input_97']")).sendKeys("UI LABS TEST");
 			 
 			 //My Description
 			 driver.findElement(By.xpath("//*[@id='richdiv']")).clear();
@@ -112,7 +112,7 @@ public class testBatch2 {
 			 
 			 //My Skills
 			 driver.findElement(By.xpath("/html/body/div[2]/div/md-content/md-tabs/md-tabs-wrapper/md-tabs-canvas/md-pagination-wrapper/md-tab-item[2]/span")).click();
-			 driver.findElement(By.xpath("//*[@id='input_50']")).sendKeys("Test"); //enter skill
+			 driver.findElement(By.xpath("//*[@id='input_101']")).sendKeys("Test"); //enter skill
 			 driver.findElement(By.xpath("//*[@id='tab-content-99']/div/md-content/div/form/button/span")).click();//add
 			 
 			 //Upload and Change Photo

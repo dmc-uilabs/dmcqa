@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+//test
 public class testBatch2 {
 
 	public static void main(String[] args) {
@@ -80,66 +80,15 @@ public class testBatch2 {
 
 	public static void myProfile(WebDriver driver, WebDriverWait wait){
 
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); //wait
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS); //wait
 
 		//driver.findElement(By.xpath("/html/body/div[1]/header/div[1]/div/div/div[3]/md-menu/button/span")).click();
 		//driver.findElement(By.xpath("/html/body/div[6]/md-menu-content/md-menu-item[2]/a/span")).click();
 	         driver.navigate().refresh();
-			 driver.manage().timeouts().implicitlyWait(35, TimeUnit.SECONDS);
+			 driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			 driver.navigate().to("https://portal.opendmc.org/profile.php#/538");
-			 
-			 //Click edit profile 
-			 driver.findElement(By.xpath("/html/body/div[2]/div/md-content/div[1]/div[2]/div[2]/div[1]/a/span")).click();
-			 
-			 //Display Name
-			 /*
-			 driver.findElement(By.xpath("//*[@id='editDisplayNameProfile']")).clear();
-			 driver.findElement(By.xpath("//*[@id='editDisplayNameProfile']")).sendKeys("Arsalan Chaudhry");
-			 
-			 driver.manage().timeouts().implicitlyWait(15 , TimeUnit.SECONDS); //wait
-			 
-			 //Job Title
-			 driver.findElement(By.xpath("//*[@id='input_44']")).clear();
-			 driver.findElement(By.xpath("//*[@id='input_44']")).sendKeys("DMCIntern");
-			 */ 
-			//Location 
-			 driver.findElement(By.xpath("//*[@id='input_46']")).clear();
-			 driver.findElement(By.xpath("//*[@id='input_46']")).sendKeys("UI LABS TEST");
-			 
-			 //My Description
-			 driver.findElement(By.xpath("//*[@id='richdiv']")).clear();
-			 driver.findElement(By.xpath("//*[@id='richdiv']")).sendKeys("This is my description");
-			 
-			 //My Skills
-			 driver.findElement(By.xpath("/html/body/div[2]/div/md-content/md-tabs/md-tabs-wrapper/md-tabs-canvas/md-pagination-wrapper/md-tab-item[2]/span")).click();
-			 driver.findElement(By.xpath("//*[@id='input_50']")).sendKeys("Test"); //enter skill
-			 driver.findElement(By.xpath("//*[@id='tab-content-99']/div/md-content/div/form/button/span")).click();//add
-			 
-			 //Upload and Change Photo
-			 driver.findElement(By.xpath("/html/body/div[2]/div/md-content/div/div[1]/button")).click(); //hit change photo
-			 driver.findElement(By.xpath("//*[@id='documentDropZone']/div/div/ng-md-icon/svg")).sendKeys("UI_LABS_3.jpg");//document drop 
-			 
-			 //UI_LABS_3.jpg
-			 //driver.findElement(By.id("profile_pic_10")).sendKeys("C:\\Users\\Anupam\\Desktop\\aaa.png");
-			 //driver.findElement(By.xpath("/html/body/div[2]/div/md-content/div/div[2]/div[2]/button[2]/span")).click();
-			
 	}//end of myProfile
 
-	public static void myAccount(WebDriver driver, WebDriverWait wait){
-		//Navigate to my account settings
-		
-		//Click on Privacy tab
-		
-		//Click on phone button
-		
-		//Enter in Phone Number
-		
-		//Hit the Save button
-		
-		//Open New Tab and check in my profile if the contact information is visible
-		
-		//Remove Contact information
-		
-	}//end of myAccount
 
-}//end of class
+
+}//end of classs
