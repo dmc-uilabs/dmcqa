@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="java.awt.datatransfer.StringSelection"/>
 <fullyQualifiedTypeName name="java.awt.datatransfer.Clipboard"/>
 <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
 </qualifiedTypeNameHistroy>
