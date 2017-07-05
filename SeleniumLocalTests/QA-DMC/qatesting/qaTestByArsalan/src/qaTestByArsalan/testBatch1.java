@@ -27,6 +27,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.github.bonigarcia.wdm.ChromeDriverManager;
+
 //import org.openqa.selenium.remote.RemoteWebDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
@@ -48,8 +50,8 @@ public class testBatch1 {
         String sitePreAndURL = "https://" + sitePrefix + siteURL;  
        
         for(int i = 0; i < 1; i++){
-		// Change as per your chromedriver download location
-		System.setProperty("webdriver.chrome.driver", "/home/arsalan/Desktop/Selenium/chromedriver");
+		// Using Chrome Driver Manager depencency
+        	ChromeDriverManager.getInstance().setup();
 		
 	     //Chrome browser
 		 WebDriver driver= new ChromeDriver();
