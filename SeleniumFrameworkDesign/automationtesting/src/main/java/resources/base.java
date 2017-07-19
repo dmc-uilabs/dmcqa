@@ -18,6 +18,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import io.github.bonigarcia.wdm.ChromeDriverManager; 
 
 import pageObjects.LandingPage;
 import pageObjects.LoginPage;
@@ -37,8 +38,9 @@ public class base {
 		System.out.println(browserName);
 		
 		if(browserName.equals("chrome")){
-			//execute in chrome driver
-			System.setProperty("webdriver.chrome.driver", "/home/arsalan/Desktop/Selenium/chromedriver");
+			// Using Chrome Driver Manager depencency 
+			ChromeDriverManager.getInstance().setup(); 
+			
 			driver = new ChromeDriver();
 			wait = new WebDriverWait(driver, 30);
 			
