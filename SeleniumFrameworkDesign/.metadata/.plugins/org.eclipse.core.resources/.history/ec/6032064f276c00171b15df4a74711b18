@@ -1,0 +1,30 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Home {
+	
+	public WebDriver driver;
+	
+	
+	By title  = By.xpath("/html/body/div[2]/div/div/div[1]/div/div[1]/h1");
+	//By NavBar = By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
+	
+	public Home(WebDriver driver) {
+		//Auto-generated constructor stub
+		this.driver=driver;
+	}
+	
+
+/*	public WebElement getNavigationBar()
+	{
+		return driver.findElement(NavBar);
+	}*/
+	public WebElement getTitle()
+	{
+		return driver.findElement(title);
+	}
+	
+}

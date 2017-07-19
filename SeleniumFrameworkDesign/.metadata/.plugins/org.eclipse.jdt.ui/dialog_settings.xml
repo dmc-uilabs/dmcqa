@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="/home/arsalan/Desktop/Selenium/apache-log4j-2.8.2-bin" key="org.eclipse.jdt.ui.lastextjar"/>
+	<section name="NewClassWizardPage">
+		<item value="false" key="create_constructor"/>
+		<item value="true" key="create_unimplemented"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="4" key="index"/>
+	</section>
+	<section name="JarImportWizard">
+		<item value="false" key="org.eclipse.ltk.ui.refactoring.sortRefactorings"/>
+		<list key="org.eclipse.jdt.ui.refactoring.jarHistory">
+			<item value="/home/arsalan/Desktop/Selenium/selenium-server-standalone-3.4.0.jar"/>
+		</list>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="2" key="pageIndex"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
 	<section name="JavaElementSearchActions">
 	</section>
 </section>

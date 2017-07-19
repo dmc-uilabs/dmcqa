@@ -1,0 +1,49 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LoginPage {
+	
+public WebDriver driver;
+	
+	By emailUILabs = By.id("cred_userid_inputtext");
+	By passwordUILabs=By.id("cred_password_inputtext");
+	By keepMeSignedInUILabs=By.id("cred_keep_me_signed_in_checkbox");
+	By signinUILabs=By.id("cred_sign_in_button");
+	
+	By emailUILabsGuest = By.id("username");
+	By pwUILabsGuest = By.id("password");
+	By submitUILabsGuest = By.xpath("/html/body/div[1]/div[2]/div/form/div/div[3]/input");
+	
+	
+	public LoginPage(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		
+		this.driver=driver;
+		
+	}
+
+	public WebElement getEmailUILabs()
+	{
+		return driver.findElement(emailUILabs);
+	}
+	
+	public WebElement getPasswordUILabs()
+	{
+		return driver.findElement(passwordUILabs);
+	}
+	public WebElement getKeepMeSignedInUILabs()
+	{
+		return driver.findElement(keepMeSignedInUILabs);
+	}
+	public WebElement getSignInUILabs()
+	{
+		return driver.findElement(signinUILabs);
+	}
+	
+	
+	
+	
+}

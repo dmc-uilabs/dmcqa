@@ -1,0 +1,113 @@
+package Qatests;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import resources.base;
+
+public class accountContactTest extends base {
+	String phoneNum = "5555555555";
+	
+	
+	//My Account Settings - Contact Information
+	public static void myAccount(WebDriver driver, WebDriverWait wait, String phoneNum){
+		//Navigate to my account settings
+		driver.navigate().refresh();
+        sleepThreadWait2(); //wait
+         
+		driver.navigate().to("https://portal.opendmc.org/account.php#/538/basics");
+		
+		sleepThreadWait2(); //wait
+
+		//Verify that it is on correct page
+		String pageTitle = driver.getTitle();
+		System.out.println("Reached to " + pageTitle);
+		Assert.assertTrue(pageTitle.contains("Manage Account"));
+		 
+		//Click on Privacy tab
+		driver.findElement(By.xpath("/html/body/div[2]/ui-view/div/div[1]/div/div/md-content/md-list/md-list-item[2]/a/div[1]/div")).click();
+		
+		//Validate whether phone checkbox is selected by default
+		System.out.println("Before Clicking: Is Phone Checkbox Selected: " + driver.findElement(By.xpath("/html/body/div[2]/ui-view/div/div[2]/div/div/md-content/div[2]/div[1]/div[1]/div[2]/md-checkbox/div[2]/span")).isSelected());
+
+		sleepThreadWait(); //wait
+
+		driver.findElement(By.xpath("/html/body/div[2]/ui-view/div/div[2]/div/div/md-content/div[2]/div[1]/div[1]/div[2]/md-checkbox/div[2]/span")).click();
+		System.out.println("After Clicking: Is Phone Checkbox Selected:  " + driver.findElement(By.xpath("//*[@id='input_6']")).isDisplayed());
+
+		sleepThreadWait2(); //wait
+		
+		//Enter in Contact Information
+		enterContactInfo(driver, wait, phoneNum);
+
+		//Remove Contact information
+		removeContactInfo(driver, wait, phoneNum);
+
+		
+
+	}//end of myAccount
+
+	public static void enterContactInfo(WebDriver driver, WebDriverWait wait, String phoneNum){
+		//Enter in Phone Number
+		System.out.println("Entering in Contact Information");
+		driver.findElement(By.xpath("//*[@id='input_6']")).sendKeys(phoneNum);
+		
+		//Hit the Save button
+		driver.findElement(By.xpath("/html/body/div[2]/ui-view/div/div[2]/div/div/md-content/div[1]/button/span")).click();
+		System.out.println("Added Phone Number:" + phoneNum);
+
+		sleepThreadWait2(); //wait
+	
+		//check in my profile if the contact information is visible
+		System.out.println("Currently on " + driver.getTitle() + " Page"); //check page
+		
+		//driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t");
+		sleepThreadWait2(); //wait
+		driver.get("https://portal.opendmc.org/profile.php#/538");
+		
+		System.out.println("Currently on " + driver.getTitle() + " Page"); //check page
+		
+		sleepThreadWait2(); //wait
+
+		driver.findElement(By.xpath("/html/body/div[2]/div/md-content/md-tabs/md-tabs-wrapper/md-tabs-canvas/md-pagination-wrapper/md-tab-item[2]/span")).click();
+		System.out.println("Is Phone Number Visible: " + driver.findElement(By.xpath("//*[@id='input_5']")).isDisplayed());
+
+	}//end of enterContactInfo()
+	
+	public static void removeContactInfo(WebDriver driver, WebDriverWait wait, String phoneNum){
+		System.out.println("Removing Contact Information");
+		
+		driver.navigate().to("https://portal.opendmc.org/account.php#/538/basics");
+		sleepThreadWait2(); //wait
+		
+		//Click on Privacy tab
+		driver.findElement(By.xpath("/html/body/div[2]/ui-view/div/div[1]/div/div/md-content/md-list/md-list-item[2]/a/div[1]/div")).click();
+		//clear number
+		sleepThreadWait2(); //wait
+		driver.findElement(By.xpath("//*[@id='input_6']")).clear();
+		
+		//Unclick and Save
+		driver.findElement(By.xpath("/html/body/div[2]/ui-view/div/div[2]/div/div/md-content/div[2]/div[1]/div[1]/div[2]/md-checkbox/div[2]/span")).click();
+		driver.findElement(By.xpath("/html/body/div[2]/ui-view/div/div[2]/div/div/md-content/div[1]/button/span")).click();
+		System.out.println("Removed Phone Number:" + phoneNum);
+
+		sleepThreadWait2(); //wait
+
+		//check in my profile if the contact information is visible
+		//System.out.println("Currently on " + driver.getTitle() + " Page"); //check page
+		
+		//driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t");
+		sleepThreadWait2(); //wait
+		driver.get("https://portal.opendmc.org/profile.php#/538");
+		
+		//System.out.println("Currently on " + driver.getTitle() + " Page"); //check page
+		sleepThreadWait2(); //wait
+		driver.findElement(By.xpath("/html/body/div[2]/div/md-content/md-tabs/md-tabs-wrapper/md-tabs-canvas/md-pagination-wrapper/md-tab-item[2]/span")).click();
+		//System.out.println("Is Phone Number Visible: " + driver.findElement(By.xpath("//*[@id='input_5']")).isDisplayed());
+
+	}//end of removeContactInfo()
+	
+	
+}

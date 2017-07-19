@@ -19,8 +19,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Keys;
 import java.awt.*;
 
-//import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 //import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -52,6 +52,7 @@ public class testBatch1 {
         for(int i = 0; i < 1; i++){
 		// Using Chrome Driver Manager depencency
         	ChromeDriverManager.getInstance().setup();
+        	//System.setProperty("webdriver.chrome.driver", "/home/arsalan/Desktop/Selenium/chromedriver");
 		
 	     //Chrome browser
 		 WebDriver driver= new ChromeDriver();

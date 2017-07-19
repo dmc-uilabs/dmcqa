@@ -1,0 +1,43 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LoginPage {
+	
+public WebDriver driver;
+	
+	By email = By.id("cred_userid_inputtext");
+	By password=By.id("cred_password_inputtext");
+	By keepMeSignedIn=By.id("cred_keep_me_signed_in_checkbox");
+	By signin=By.id("cred_sign_in_button");
+	
+	
+	public LoginPage(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		
+		this.driver=driver;
+		
+	}
+
+	public WebElement getEmail()
+	{
+		return driver.findElement(email);
+	}
+	
+	public WebElement getPassword()
+	{
+		return driver.findElement(password);
+	}
+	public WebElement getKeepMeSignedIn()
+	{
+		return driver.findElement(keepMeSignedIn);
+	}
+	public WebElement getSignIn()
+	{
+		return driver.findElement(signin);
+	}
+	
+	
+}

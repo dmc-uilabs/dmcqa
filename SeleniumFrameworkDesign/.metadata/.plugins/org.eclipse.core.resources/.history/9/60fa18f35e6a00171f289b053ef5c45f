@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="Qatests.listeners"/>
+	<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+
+  <test name="App Test">
+    <classes>
+      <class name="Qatests.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Test User Login">
+    <classes>
+      <class name="Qatests.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Validate Nav Bar">
+    <classes>
+      <class name="Qatests.validateNavigationBar"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Validate Title">
+    <classes>
+      <class name="Qatests.validateTitle"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
