@@ -8,7 +8,7 @@ public class Home {
 	
 	public WebDriver driver;
 
-	By title  = By.xpath("/html/body/div[2]/div/div/div[1]/div/div[1]/h1");
+	By title  = By.xpath("/html/body/div[2]/main/section/div[1]/h1[1]");
 	By user_menu = By.id("user-menu");
 	By myaccount = By.xpath("//*[@id='my-account']/span");
 	By myorganization = By.id("my-organization");
