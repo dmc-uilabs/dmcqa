@@ -109,28 +109,28 @@ public class batchThreeDiscussion
 	        */
 	        
 	        //Going to Workspace
-	        driver.findElement(By.xpath("/html/body/div[1]/header/div[2]/div/div/div/div/md-menu[2]")).click();
-	        sleepThreadWait();
-	        driver.findElement(By.xpath("/html/body/div[4]/md-menu-content/md-menu-item[4]")).click();
+	        driver.findElement(By.id("workspaces")).click();
 	        sleepThreadWait();
 	        
 	        //Entering a workspace
 	        System.out.println("Entering workspace");
 	        sleepThreadWait();
+	        //insert while loop to refresh until workspace found
 	        driver.navigate().refresh();
 	        sleepThreadWait();
-	        driver.findElement(By.cssSelector("a[ng-href='project.php#/248']")).click();
+	        driver.findElement(By.cssSelector("a[ng-href='project.php#/248/home']")).click();
 	        sleepThreadWait();
 	        System.out.println("Entered workspace");
 	        
 	        //Adding a discussion
-	        driver.findElement(By.xpath("/html/body/div[2]/ui-view/div[2]/div/div[1]/div[2]/div[1]/md-toolbar/div/button")).click();
+	        driver.findElement(By.cssSelector("button[class='add-button-square md-button ng-scope md-default-theme']")).click();
 	        sleepThreadWait();
 	        driver.findElement(By.cssSelector("input[ng-model='NewDiscussion.subject']")).clear();
 	        driver.findElement(By.cssSelector("input[ng-model='NewDiscussion.subject']")).sendKeys("Discussion" +" - "+"Test" + " - " + RandomStringUtils.randomAlphabetic(3) + RandomStringUtils.randomNumeric(3));
 	        driver.findElement(By.xpath("//*[@id='richdiv']")).clear();
 	        driver.findElement(By.xpath("//*[@id='richdiv']")).sendKeys("Adding Discussion-" + RandomStringUtils.randomAlphabetic(3) + RandomStringUtils.randomNumeric(3));
-	        driver.findElement(By.xpath("//*[@id='dialog_1']/div/div[2]/button[2]")).click();
+	        driver.findElement(By.xpath("//*[@id='dialog_7']/div/div[2]/button[2]")).click();
+	        sleepThreadWait();
 	        
 	        //Checking visibility of user profile picture
 	        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("img[ng-src='https://dmcupfinal.s3.amazonaws.com/USER/cuid-d3d4270e-7eab-4e60-a3c3-81bd8317a959%40uilabs.idp.cirrusidentity.com/Documents/1500308257-943363-sanitized-download.png?AWSAccessKeyId=AKIAIZPP46XXRK6PBF6A&Expires=1502986659&Signature=CeZFbFLwUqckBpHYjIhKYj4qT98%3D']")));
@@ -140,7 +140,7 @@ public class batchThreeDiscussion
 	        driver.findElement(By.cssSelector("a[ng-href='https://portal.opendmc.org/project.php#/248/home']")).click();
 	        System.out.println("Back to Project- creating task");
 	        sleepThreadWait();
-	        driver.findElement(By.xpath("/html/body/div[2]/ui-view/div[2]/div/div[1]/div[3]/div[1]/md-toolbar/div/a[1]")).click();
+	        driver.findElement(By.cssSelector("a[class='add-button-square md-button ng-scope md-default-theme']")).click();
 	        sleepThreadWait();
 	        driver.findElement(By.cssSelector("textarea[ng-model='task.title']")).clear();
 	        driver.findElement(By.cssSelector("textarea[ng-model='task.title']")).sendKeys("New" +" - "+"Task" + " - " + RandomStringUtils.randomAlphabetic(3) + RandomStringUtils.randomNumeric(3));
@@ -160,11 +160,12 @@ public class batchThreeDiscussion
 	        System.out.println("New Task Created");
 	        
 	        //Completing and Checking Task Completion
-	        driver.findElement(By.xpath("/html/body/div[2]/ui-view/div[3]/div/div[1]/div/div[2]/md-content/div/div[1]/button")).click();
+	        driver.findElement(By.cssSelector("button[class='md-raised dmc-button md-button md-default-theme']")).click();
 	        System.out.println("Task Completed");
 	        sleepThreadWait();
 	        System.out.println("Checking for Task Completion");
-	        int exists = driver.findElements(By.xpath("/html/body/div[2]/ui-view/div[3]/div/div[2]/div/div[2]/md-content/ul/li[1]")).size();
+	        
+	        int exists = driver.findElements(By.xpath("/html/body/div[2]/ui-view/div/md-content/div[2]/div[2]/div/md-content/ul/li[1]")).size();
 	        
 	        if(exists == 0){
 	    		System.out.println("Test Failed: Task Completion Not Evident");
@@ -176,25 +177,23 @@ public class batchThreeDiscussion
 	        
 	        driver.findElement(By.cssSelector("a[href='/project.php#/248/home']")).click();
 	        sleepThreadWait();
-	        System.out.println("Back to Project- checking task completion");
-	        int existsTwo = driver.findElements(By.xpath("/html/body/div[2]/ui-view/div[2]/div/div[1]/div[3]/div[2]/md-content/md-data-table-container/table/tbody/tr[4]/td[2]")).size();
+	        System.out.println("On Home Page- checking task completion");
+	        
+	        int existsTwo = driver.findElements(By.cssSelector("strike[ng-bind-html='item.formatedDueDate[1]']")).size();
 	        
 	        if(existsTwo == 0){
 	    		System.out.println("Test Failed: Task Completion Not Evident");
 	    	}
 	    	
 	        else if(existsTwo != 0){
-	    		System.out.println("Test Passed: Task Completion Evident on Workspace Page");
+	    		System.out.println("Test Passed: Task Completion Evident on Home Page");
 	    	}
 	        
-	        driver.findElement(By.xpath("/html/body/div[1]/header/div[2]/div/div/div/div/md-menu[2]")).click();
+	        driver.findElement(By.xpath("/html/body/div[2]/ui-view/workspace-header/div/div/a[6]")).click();
 	        sleepThreadWait();
-	        driver.findElement(By.xpath("/html/body/div[4]/md-menu-content/md-menu-item[4]")).click();
-	        sleepThreadWait();
-	        System.out.println("Back to Workspace- checking task completion");
-	        driver.findElement(By.cssSelector("a[ng-href='/project.php#/248/tasks']")).click();
-	        sleepThreadWait();
-	        int existsThree = driver.findElements(By.xpath("/html/body/div[2]/ui-view/div[2]/div/md-content/div[2]/md-data-table-container/table/tbody/tr[7]/td[2]")).size();
+	        System.out.println("On Task Page- checking task completion");
+	      
+	        int existsThree = driver.findElements(By.cssSelector("strike[ng-bind-html='item.formatedDueDate[1]']")).size();
 	        
 	        if(existsThree == 0){
 	    		System.out.println("Test Failed: Task Completion Not Evident");
@@ -213,16 +212,12 @@ public class batchThreeDiscussion
 	        }
 	        
 	        //Updating Workspace Name, Tags, and Description
-	        driver.findElement(By.xpath("/html/body/div[1]/header/div[2]/div/div/div/div/md-menu[2]")).click();
+	        driver.findElement(By.id("workspaces")).click();
+	        System.out.println("In workspaces section");
 	        sleepThreadWait();
-	        driver.findElement(By.xpath("/html/body/div[4]/md-menu-content/md-menu-item[4]")).click();
+	        driver.findElement(By.cssSelector("a[ng-href='project.php#/248/home']")).click();
 	        sleepThreadWait();
 	        System.out.println("Back to Workspace- Updating Workspace Information");
-	        sleepThreadWait();
-	        driver.navigate().refresh();
-	        sleepThreadWait();
-	        driver.findElement(By.cssSelector("a[ng-href='project.php#/248']")).click();
-	        sleepThreadWait();
 	        driver.findElement(By.cssSelector("a[ng-href='/project.php#/248/edit']")).click();
 	        sleepThreadWait();
 	        
@@ -234,50 +229,43 @@ public class batchThreeDiscussion
 	        //Inserting updates
 	        driver.findElement(By.cssSelector("input[ng-model='projectDetails.title']")).clear();
 	        driver.findElement(By.cssSelector("input[ng-model='projectDetails.title']")).sendKeys(projectTitle);
+	        System.out.println("Updated Workspace Title Name");
 	        driver.findElement(By.xpath("//*[@id='richdiv']")).clear();
 	        driver.findElement(By.xpath("//*[@id='richdiv']")).sendKeys(projectDescription);
+	        System.out.println("Updated Workspace Description");
 	        sleepThreadWait();
 	        driver.findElement(By.cssSelector("input[ng-model='newTag']")).sendKeys(projectTag);
 	        sleepThreadWait();
-	        driver.findElement(By.xpath("//*[@id='tab-content-0']/div/md-content/ap-tab-one/div/div[1]/div[1]/div/div[2]/md-content[2]/div/form/button")).click();
-	        driver.findElement(By.xpath("//*[@id='tab-content-0']/div/md-content/ap-tab-one/div/div[2]/button[2]")).click();
+	        driver.findElement(By.cssSelector("button[ng-disabled='!newTag']")).click();
 	        sleepThreadWait();
-	        driver.findElement(By.xpath("//*[@id='tab-content-1']/div/md-content/ap-tab-two/div/div[1]/div[2]/div[2]/button[2]")).click();
+	        System.out.println("Added New Tag");
+	        driver.findElement(By.cssSelector("button[ng-disabled='!form.$valid']")).click();
+	        sleepThreadWait();
+	        driver.findElement(By.cssSelector("button[ng-click='submitProjectDetails(invitees)']")).click();
 	        System.out.println("Successfully Updated Changes in Workspace");
 	        
 	        //Checking Changes 
-	        driver.findElement(By.xpath("/html/body/div[1]/header/div[2]/div/div/div/div/md-menu[2]")).click();
-	        sleepThreadWait();
-	        driver.findElement(By.xpath("/html/body/div[4]/md-menu-content/md-menu-item[4]")).click();
-	        sleepThreadWait();
-	        System.out.println("Back to Workspace- Checking Updated Changes");
+	        driver.findElement(By.id("workspaces")).click();
 	        sleepThreadWait();
 	        driver.navigate().refresh();
 	        sleepThreadWait();
+	        System.out.println("Back to Workspace- Checking Updated Changes");
 	        
 	        //Storing variables to confirm changes
-	        WebElement elTitle = driver.findElement(By.cssSelector("a[ng-href='project.php#/248']"));
+	        WebElement elTitle = driver.findElement(By.cssSelector("a[ng-href='project.php#/248/home']"));
 	        String verifyTitle = elTitle.getText();
 	        System.out.println("Title Name: " + verifyTitle);
 	        
-	        WebElement elDesc = driver.findElement(By.xpath("//*[@id='myProjectsList']/section/section/div[1]/div[2]/div/div/div/div/p"));
+	        WebElement elDesc = driver.findElement(By.cssSelector("div[markdown-to-html='item.description']"));
 	        String verifyDesc = elDesc.getText();
 	        System.out.println("Description Name: " + verifyDesc);
 	        
-	        WebElement elTag = driver.findElement(By.xpath("//*[@id='myProjectsList']/section/section/div[1]/div[4]/div/div[4]"));
+	       
+	        WebElement elTag = driver.findElement(By.xpath("//*[@id='myProjectsList']/section/section/div[1]/div[7]/div/div/div[4]"));
 	        String verifyTag = elTag.getText();
 	        System.out.println("Tag Name: " + verifyTag);
 	        
-	        
-	        //body > div.ng-scope > ui-view > div.container.project-page-container.ng-scope > div > div:nth-child(2) > div:nth-child(1) > div.content-panel-body > md-content > div > div > div > span
-	        //body > div.ng-scope > ui-view > div.container.project-page-container.ng-scope > div > div:nth-child(2) > div:nth-child(1) > div.content-panel-body > md-content > div > div:nth-child(1) > div > span
-	        //body > div.ng-scope > ui-view > div.container.project-page-container.ng-scope > div > div:nth-child(2) > div:nth-child(1) > div.content-panel-body > md-content > div > div:nth-child(2)
-	        
-	        //Add two tags
-	        //A third tag is added
-	        //css form 1,2,3 in variable
-	        //tag one compared to tag one variable
-	        //tag two compared to  ...
+	        //Checking for noted updated changes 
 	        if (projectTitle.equals(verifyTitle)){
 	    		System.out.println("Test Passed: Title Change Stored Successfully");
 	    	}
@@ -294,13 +282,44 @@ public class batchThreeDiscussion
 	    		System.out.println("Test Failed: Description Change Not Stored");
 	    	}
 	        
-	        if(projectTag.equals(verifyTag)){
-	    		System.out.println("Test Passed: Tag Change Stored Successfully");
+	        if (projectTag.equals(verifyTag)){
+	    		System.out.println("Test Passed: Additional Tag Stored Successfully");
 	    	}
 	    	
 	        else {
-	    		System.out.println("Test Failed: Tag Change Not Stored");
+	    		System.out.println("Test Failed: Additional Tag Not Stored");
 	    	}
+	        
+	        //Replying to discussion
+	        System.out.println("Attempting to reply to discussion");
+	        driver.findElement(By.cssSelector("a[ng-href='project.php#/248/home']")).click();
+	        sleepThreadWait();
+	        driver.findElement(By.cssSelector("a[href='/individual-discussion.php#/108']")).click();
+	        sleepThreadWait();
+	        driver.findElement(By.cssSelector("a[ng-if='$first']")).click();
+	        driver.findElement(By.id("richdiv")).click();
+	        sleepThreadWait();
+	        driver.findElement(By.id("richdiv")).sendKeys("Replying to discussion- " + RandomStringUtils.randomAlphabetic(5) + RandomStringUtils.randomNumeric(5));
+	        sleepThreadWait();
+	        driver.findElement(By.cssSelector("button[ng-disabled='!NewReview.Comment']")).click();
+	        System.out.println("Attempt Successful: Replied to discussion");
+	        
+	        //Preparing Account for Next Test
+	        System.out.println("Preparing account for retest");
+	        driver.findElement(By.id("workspaces")).click();
+	        sleepThreadWait();
+	        driver.findElement(By.cssSelector("a[ng-href='project.php#/248/home']")).click();
+	        sleepThreadWait();
+	        driver.findElement(By.cssSelector("a[ng-href='/project.php#/248/edit']")).click();
+	        sleepThreadWait();
+	        driver.findElement(By.cssSelector("button[ng-click='deleteTag($index,tag)']")).click();
+	        sleepThreadWait();
+	        System.out.println("Deleted New Tag");
+	        driver.findElement(By.cssSelector("button[ng-disabled='!form.$valid']")).click();
+	        sleepThreadWait();
+	        driver.findElement(By.cssSelector("button[ng-click='submitProjectDetails(invitees)']")).click();
+	        driver.navigate().refresh();
+	        System.out.println("Account prepared for new trial");
 	        
 	        //Logging out
 	        driver.findElement(By.cssSelector(".user-button")).click();
