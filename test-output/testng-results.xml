@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15986" started-at="2017-07-21T15:33:50Z" finished-at="2017-07-21T15:34:06Z">
+  <suite name="Default suite" duration-ms="11492" started-at="2017-07-21T15:44:42Z" finished-at="2017-07-21T15:44:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15986" started-at="2017-07-21T15:33:50Z" finished-at="2017-07-21T15:34:06Z">
-      <class name="dmcqa.validateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:dmcqa.validateTitle@7a675056]" name="initialize" is-config="true" duration-ms="12816" started-at="2017-07-21T10:33:50Z" finished-at="2017-07-21T10:34:02Z">
+    <test name="Default test" duration-ms="11492" started-at="2017-07-21T15:44:42Z" finished-at="2017-07-21T15:44:54Z">
+      <class name="dmcqa.LoginUILABSGuest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:dmcqa.LoginUILABSGuest@7a675056]" name="initialize" is-config="true" duration-ms="5628" started-at="2017-07-21T10:44:42Z" finished-at="2017-07-21T10:44:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:dmcqa.validateTitle@7a675056]" name="validateAppTitle" duration-ms="2961" started-at="2017-07-21T10:34:02Z" finished-at="2017-07-21T10:34:05Z">
+        <test-method status="PASS" signature="loginGuest()[pri:0, instance:dmcqa.LoginUILABSGuest@7a675056]" name="loginGuest" duration-ms="5357" started-at="2017-07-21T10:44:48Z" finished-at="2017-07-21T10:44:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAppTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:dmcqa.validateTitle@7a675056]" name="teardown" is-config="true" duration-ms="175" started-at="2017-07-21T10:34:05Z" finished-at="2017-07-21T10:34:06Z">
+        </test-method> <!-- loginGuest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:dmcqa.LoginUILABSGuest@7a675056]" name="teardown" is-config="true" duration-ms="474" started-at="2017-07-21T10:44:53Z" finished-at="2017-07-21T10:44:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- dmcqa.validateTitle -->
+      </class> <!-- dmcqa.LoginUILABSGuest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
