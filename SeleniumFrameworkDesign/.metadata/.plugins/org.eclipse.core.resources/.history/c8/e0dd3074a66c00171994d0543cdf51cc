@@ -1,9 +1,0 @@
-package Qatests;
-
-public class restCompanies {
-	
-	
-	@Test
-	public void restcompanies
-	
-}
