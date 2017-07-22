@@ -14,6 +14,7 @@ public class Home {
 	By myorganization = By.id("my-organization");
 	By logout = By.id("logout");
 	
+	By workspacestab = By.xpath("//*[@id='workspaces']/span");
 	
 	//By NavBar = By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
 	
@@ -35,5 +36,7 @@ public class Home {
 	{
 		return driver.findElement(title);
 	}
-	
+	public WebElement getWorkspacesTab(){
+		return driver.findElement(workspacestab);
+	}
 }
