@@ -1,0 +1,4 @@
+15:26:45.542 [main] INFO  resources.base - Driver is initialized
+15:26:54.696 [main] INFO  resources.base - Navigated to home page
+15:26:57.575 [main] INFO  resources.base - Successfully validated home page title
+15:30:24.038 [main] INFO  resources.base - Driver is initialized
