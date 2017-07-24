@@ -165,6 +165,7 @@ public class batchThreeApplication {
 	        	driver.findElement(By.cssSelector("button[ng-click='addToProject()']")).click();
 	        	driver.findElement(By.cssSelector("input[ng-required='$mdAutocompleteCtrl.isRequired']")).click();
 	        	driver.findElement(By.cssSelector("input[ng-required='$mdAutocompleteCtrl.isRequired']")).sendKeys("Title - ");
+	        	sleepThreadWait();
 	        	driver.findElement(By.cssSelector("li[ng-click='$mdAutocompleteCtrl.select($index)']")).click();
 	        	driver.findElement(By.cssSelector("button[ng-disabled='!projectModel']")).click();
 	        	sleepThreadWait();
@@ -189,7 +190,8 @@ public class batchThreeApplication {
 	        	sleepThreadWait();
 	        	driver.findElement(By.cssSelector("button[ng-click='addToProject()']")).click();
 	        	driver.findElement(By.cssSelector("input[ng-required='$mdAutocompleteCtrl.isRequired']")).click();
-	        	driver.findElement(By.cssSelector("input[ng-required='$mdAutocompleteCtrl.isRequired']")).sendKeys("Title");
+	        	driver.findElement(By.cssSelector("input[ng-required='$mdAutocompleteCtrl.isRequired']")).sendKeys("Title - ");
+	        	sleepThreadWait();
 	        	driver.findElement(By.cssSelector("li[ng-click='$mdAutocompleteCtrl.select($index)']")).click();
 	        	driver.findElement(By.cssSelector("button[ng-disabled='!projectModel']")).click();
 	        	sleepThreadWait();
