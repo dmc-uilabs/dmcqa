@@ -32,21 +32,37 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
 <tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="stripe"><td style="text-align:left;padding-right:2em">Test User Login</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">10.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test User Login</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">11.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Title</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">12.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 <tr class="total"><td>Total</td>
-<td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">10.7 seconds</td><td colspan="2">&nbsp;</td></tr>
+<td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">24.1 seconds</td><td colspan="2">&nbsp;</td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">automationtesting.AppTest</td><td><a href="#m1"><b>testApp</b>  </a></td><td class="numi">1</td><td>1500927981804</td><td class="numi">27</td></tr>
+<tr class="passedodd"><td rowspan="1">automationtesting.AppTest</td><td><a href="#m1"><b>testApp</b>  </a></td><td class="numi">1</td><td>1500932519620</td><td class="numi">42</td></tr>
 <tr><th colspan="4">Test User Login &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">automationtesting.LoginUILABSGuest</td><td><a href="#m2"><b>loginGuest</b>  </a></td><td class="numi">1</td><td>1500927987090</td><td class="numi">4983</td></tr>
+<tr class="passedodd"><td rowspan="1">automationtesting.LoginUILABSGuest</td><td><a href="#m2"><b>loginGuest</b>  </a></td><td class="numi">1</td><td>1500932524494</td><td class="numi">6177</td></tr>
+<tr><th colspan="4">Title &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">automationtesting.validateTitle</td><td><a href="#m3"><b>validateAppTitle</b>  </a></td><td class="numi">1</td><td>1500932540422</td><td class="numi">2677</td></tr>
 </table>
 <h1>Test</h1>
 <h2 id="m1">automationtesting.AppTest:testApp</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h1>Test User Login</h1>
 <h2 id="m2">automationtesting.LoginUILABSGuest:loginGuest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Title</h1>
+<h2 id="m3">automationtesting.validateTitle:validateAppTitle</h2>
+<div style="padding-left:3em">
+<p>expected [DIGITAL MANUFACTURIhNG COMMONS] but found [DIGITAL MANUFACTURING COMMONS]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationtesting.validateTitle.validateAppTitle(validateTitle.java:37)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

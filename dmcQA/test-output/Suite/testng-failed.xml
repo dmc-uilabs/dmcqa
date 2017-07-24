@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="automationtesting.listeners"/>
+  </listeners>
+  <test name="Title(failed)">
+    <classes>
+      <class name="automationtesting.LoginUILABSGuest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- automationtesting.LoginUILABSGuest -->
+      <class name="automationtesting.validateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="validateAppTitle"/>
+        </methods>
+      </class> <!-- automationtesting.validateTitle -->
+    </classes>
+  </test> <!-- Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->

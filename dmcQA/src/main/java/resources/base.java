@@ -154,4 +154,11 @@ public class base {
 					
 				}
 			}//end of sleepThreadWait2()
+
+		//Method to Screenshot at failure
+		public void getScreenshot(String result) throws IOException
+		{
+			File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(src, new File("/home/arsalan/Desktop/test3/dmcqa/dmcQA/screenshots/" + result + "screenshot.png"));
+		}
 }
