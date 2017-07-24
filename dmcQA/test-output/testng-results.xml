@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10702" started-at="2017-07-24T20:26:21Z" finished-at="2017-07-24T20:26:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="80" started-at="2017-07-24T20:26:21Z" finished-at="2017-07-24T20:26:21Z">
+      <class name="automationtesting.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:automationtesting.AppTest@6f7fd0e6]" name="testApp" duration-ms="27" started-at="2017-07-24T15:26:21Z" finished-at="2017-07-24T15:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- automationtesting.AppTest -->
+    </test> <!-- Test -->
+    <test name="Test User Login" duration-ms="10561" started-at="2017-07-24T20:26:21Z" finished-at="2017-07-24T20:26:32Z">
+      <class name="automationtesting.LoginUILABSGuest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:automationtesting.LoginUILABSGuest@5bcab519]" name="initialize" is-config="true" duration-ms="5183" started-at="2017-07-24T15:26:21Z" finished-at="2017-07-24T15:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginGuest()[pri:0, instance:automationtesting.LoginUILABSGuest@5bcab519]" name="loginGuest" duration-ms="4983" started-at="2017-07-24T15:26:27Z" finished-at="2017-07-24T15:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginGuest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:automationtesting.LoginUILABSGuest@5bcab519]" name="teardown" is-config="true" duration-ms="383" started-at="2017-07-24T15:26:32Z" finished-at="2017-07-24T15:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- automationtesting.LoginUILABSGuest -->
+    </test> <!-- Test User Login -->
+  </suite> <!-- Suite -->
+</testng-results>
