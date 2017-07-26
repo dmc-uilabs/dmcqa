@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14153" started-at="2017-07-26T01:32:35Z" finished-at="2017-07-26T01:32:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14153" started-at="2017-07-26T01:32:35Z" finished-at="2017-07-26T01:32:49Z">
+      <class name="automationtesting.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:automationtesting.validateTitle@683dbc2c]" name="initialize" is-config="true" duration-ms="11248" started-at="2017-07-25T20:32:35Z" finished-at="2017-07-25T20:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:automationtesting.validateTitle@683dbc2c]" name="validateAppTitle" duration-ms="2694" started-at="2017-07-25T20:32:46Z" finished-at="2017-07-25T20:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:automationtesting.validateTitle@683dbc2c]" name="teardown" is-config="true" duration-ms="149" started-at="2017-07-25T20:32:49Z" finished-at="2017-07-25T20:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- automationtesting.validateTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

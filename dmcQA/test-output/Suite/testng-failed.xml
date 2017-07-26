@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="automationtesting.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test Validating Home Page Title(failed)">
+    <classes>
+      <class name="automationtesting.validateTitle">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="validateAppTitle"/>
+        </methods>
+      </class> <!-- automationtesting.validateTitle -->
+      <class name="automationtesting.LoginUILABSGuest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- automationtesting.LoginUILABSGuest -->
+      <class name="automationtesting.restCompanies">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- automationtesting.restCompanies -->
+    </classes>
+  </test> <!-- Test Validating Home Page Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->
