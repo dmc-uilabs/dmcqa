@@ -34,7 +34,7 @@ public class validateTitle extends base {
 	{
 		Home  h = new Home(driver);
 	
-		Assert.assertEquals(h.getTitle().getText(), "DIGITAL MANUFACTURIhNG COMMONS");
+		Assert.assertEquals(h.getTitle().getText(), "DIGITAL MANUFACTURING COMMONS");
 		Log.info("Successfully validated home page title");
 		 
 		

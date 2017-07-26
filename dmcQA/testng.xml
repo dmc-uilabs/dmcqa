@@ -18,9 +18,15 @@
     </classes>
   </test> <!-- Test -->
   
-   <test name="Title">
+   <test name="Test Validating Home Page Title">
     <classes>
       <class name="automationtesting.validateTitle"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test REST Companies">
+    <classes>
+      <class name="automationtesting.restCompanies"/>
     </classes>
   </test> <!-- Test -->
   
