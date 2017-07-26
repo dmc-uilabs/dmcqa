@@ -31,7 +31,7 @@ public class base {
 	
 	public WebDriver initializeDriver() throws IOException{	
 		prop = new Properties();
-		FileInputStream fileInput = new FileInputStream("/home/arsalan/Desktop/Selenium/dmcqa/SeleniumFrameworkDesign/automationtesting/src/main/java/resources/data.properties");
+		FileInputStream fileInput = new FileInputStream("src/main/java/resources/data.properties");
 	
 		prop.load(fileInput);
 		String browserName = prop.getProperty("browser");
