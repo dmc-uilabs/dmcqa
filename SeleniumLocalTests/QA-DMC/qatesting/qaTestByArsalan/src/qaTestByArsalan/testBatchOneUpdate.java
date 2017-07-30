@@ -11,9 +11,7 @@ public class testBatchOneUpdate {
         // TODO Auto-generated method stub
 
         //Create any variables 
-String Selenium_User1 = "dmctest.uilabs@gmail.com";
-String Selenium_Pass1 = "ilvqQ.;%Q*Ce=U6X4?4$";
-String Selenium_Pass2 = "dmctest.uilabs1";
+
         
         //Site to test
 String sitePrefix = "portal";
