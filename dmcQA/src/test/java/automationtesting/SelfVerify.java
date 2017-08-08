@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 
 import pageObjects.Home;
 import pageObjects.ManageAccount;
-import automationtesting.AdminVerify;
 import resources.base;
 
 public class SelfVerify extends base{
