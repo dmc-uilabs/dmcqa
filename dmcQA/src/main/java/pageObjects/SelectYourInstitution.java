@@ -11,6 +11,8 @@ public class SelectYourInstitution {
 	By uilabsguest = By.cssSelector(".idp-icon-UILabsGuestAccount");
 	By google = By.cssSelector(".idp-icon-Google");
 	
+	//Site: https://apps.cirrusidentity.com/console/ds/index?entityID=https://beta.opendmc.org/shibboleth&return=https://dev-web2.opendmc.org/Shibboleth.sso/Login%3Ftarget%3Dhttps%3A%2F%2Fdev-web2.opendmc.org
+	
 	
 	public SelectYourInstitution(WebDriver driver) {
 		//Auto-generated constructor stub

@@ -13,7 +13,7 @@ import pageObjects.ManageAccount;
 import automationtesting.AdminVerify;
 import resources.base;
 
-public class SelfVerify extends base {
+public class SelfVerify extends base{
 	public static Logger Log = LogManager.getLogger(base.class.getName());
 
 	@BeforeTest
@@ -26,7 +26,7 @@ public class SelfVerify extends base {
 
 	//
 	@Test
-	public void requestVerification()
+	public void VerifySelf()
 	{
 		Home l = new Home(driver);
 		l.getUserMenu().click();
@@ -41,9 +41,7 @@ public class SelfVerify extends base {
 		mp.chooseOrganization().click();
 		//start changing from here
 		mp.enterToken().click();
-		AdminVerify av = new AdminVerify();
-		av.requestVerification();
-		mp.enterToken().sendKeys(av.Test());
+		mp.enterToken().sendKeys(codeVerify);
 		sleepThreadWait2();
 		mp.verifyAccount().click();
 		sleepThreadWait();

@@ -20,7 +20,6 @@ public class LoginUILABSGuest extends base {
 	public void initialize() throws IOException{
 		driver = initializeDriver();
 		driver.get(prop.getProperty("url"));
-	
 	}
 	
 	

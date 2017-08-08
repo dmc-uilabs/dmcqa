@@ -1,15 +1,49 @@
 package automationtesting;
 
+import java.io.IOException;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
-public class logout {
+import pageObjects.Home;
+import pageObjects.LandingPage;
+import resources.base;
 
-	//Function to logout of the DMC
-	/*
-	public static void logout(WebDriver driver, WebDriverWait wait){
-		   driver.findElement(By.xpath("/html/body/div[1]/header/div[1]/div/div/div[3]/md-menu/button/span")).click();
-	       driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-	       driver.findElement(By.xpath("/html/body/div[4]/md-menu-content/md-menu-item[3]/button/span")).click();
-	  } //end of logout()
-	*/
+public class logout extends base {
+	public static Logger Log = LogManager.getLogger(base.class.getName());
+
+	@BeforeTest
+	public void initialize() throws IOException{
+		driver = initializeDriver();
+		driver.get(prop.getProperty("url"));
+		GoogleLogin(driver);
+	}
+
+	
+	@Test
+	public void logoutAccount()
+	{
+
+		Home l = new Home(driver);
+		l.getUserMenu().click();
+		sleepThreadWait2();
+		l.logout().click();
+		sleepThreadWait2();
+		driver.navigate().refresh();
+	    sleepThreadWait2();
+
+		Log.info("Successful Logout");
+	}
+
+
+	@AfterTest
+	public void teardown(){
+		driver.close();
+		driver = null;
+	}
 }
+
 

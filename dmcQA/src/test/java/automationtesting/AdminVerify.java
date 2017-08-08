@@ -17,7 +17,7 @@ import resources.base;
 
 public class AdminVerify extends base {
 	public static Logger Log = LogManager.getLogger(base.class.getName());
-	private String VerifyCode = "";
+	private StringBuilder VerifyCode = new StringBuilder("");
 	
 	@BeforeTest
 	public void initialize() throws IOException{
@@ -29,7 +29,7 @@ public class AdminVerify extends base {
 
 	
 	@Test
-	public void requestVerification()
+	public void VerifyMember()
 	{
 		Home l = new Home(driver);
 		l.seeNotifications().click();
@@ -50,8 +50,9 @@ public class AdminVerify extends base {
 		sleepThreadWait2();
 		WebElement el = vm.saveVerificationToken();
 		
-		VerifyCode = el.getText();
-		System.out.println(el);
+		VerifyCode.append(el.getText());
+		System.out.println(VerifyCode);
+		codeVerify = VerifyCode.toString();
 		Log.info("saved verification code");
 		vm.closePopUp().click();
 		sleepThreadWait2();
@@ -59,7 +60,7 @@ public class AdminVerify extends base {
 		
 	}
 	
-	public String Test(){
+	public StringBuilder Test(){
 		return this.VerifyCode;
 	}
 	
