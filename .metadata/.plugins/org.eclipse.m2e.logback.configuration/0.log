@@ -1,0 +1,518 @@
+2017-07-26 16:51:05,959 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: automationtesting:dmcQA:1.0-SNAPSHOT @ /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/pom.xml.
+2017-07-26 16:51:08,700 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dmcQA/src/main/java
+2017-07-26 16:51:08,700 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /dmcQA/src/main/java/resources overlaps with sources folder /dmcQA/src/main/java
+2017-07-26 16:51:08,701 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dmcQA/src/test/java
+2017-07-26 16:51:09,584 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2017-07-26 16:51:13,661 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-26 16:51:13,765 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-26 16:51:13,803 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-26 16:51:13,843 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-26 16:51:13,844 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-26 16:51:27,740 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-26 16:51:27,751 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-26 16:51:27,753 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-26 16:51:27,764 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-26 16:51:27,764 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-26 16:59:03,839 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2017-07-26 17:03:38,088 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-26 17:03:38,125 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-26 17:03:38,143 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-26 17:03:38,278 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-26 17:03:38,279 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:18:16,721 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:18:16,722 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:18:16,761 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 10:18:16,762 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:18:16,762 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:19:15,428 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:19:15,429 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:19:15,429 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 10:19:15,431 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:19:15,431 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:28:29,174 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:28:29,175 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:28:29,179 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 10:28:29,196 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:28:29,197 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:28:40,449 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:28:40,450 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:28:40,451 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 10:28:40,459 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:28:40,459 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:42:05,271 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:42:05,271 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:42:05,271 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 10:42:05,283 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:42:05,283 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:42:42,851 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:42:42,856 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:42:42,857 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 10:42:42,858 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:42:42,858 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:48:59,207 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:48:59,207 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:48:59,209 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 10:48:59,237 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:48:59,237 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:52:58,539 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:52:58,539 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:52:58,540 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 10:52:58,554 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:52:58,566 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:55:35,814 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:55:35,815 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:55:35,815 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 10:55:35,816 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:55:35,816 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 10:59:12,550 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 10:59:12,555 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:59:12,559 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 10:59:12,560 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 10:59:12,561 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 11:05:58,934 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 11:05:58,935 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 11:05:58,936 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 11:05:58,938 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 11:05:58,938 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 11:13:53,801 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 11:13:53,804 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 11:13:53,804 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 11:13:53,814 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 11:13:53,814 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 11:16:10,047 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 11:16:10,048 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 11:16:10,049 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 11:16:10,096 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 11:16:10,106 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 11:26:20,698 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 11:26:20,698 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 11:26:20,699 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 11:26:20,720 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 11:26:20,721 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:18:32,114 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:18:32,127 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:18:32,128 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 13:18:32,141 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:18:32,142 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:22:00,477 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:22:00,477 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:22:00,478 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 13:22:00,512 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:22:00,512 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:38:56,981 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:38:56,983 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:38:56,989 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 13:38:57,001 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:38:57,001 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:40:29,047 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:40:29,047 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:40:29,048 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 13:40:29,063 [Worker-75] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:40:29,063 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:40:46,846 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:40:46,847 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:40:46,848 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 13:40:46,851 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:40:46,851 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:44:32,662 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:44:32,663 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:44:32,663 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 13:44:32,676 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:44:32,676 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:48:29,963 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:48:29,976 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:48:29,977 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 13:48:29,994 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:48:29,995 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:48:47,596 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:48:47,597 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:48:47,597 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 13:48:47,598 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:48:47,598 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:53:32,183 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:53:32,184 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:53:32,192 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 13:53:32,208 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:53:32,208 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:53:47,974 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:53:47,981 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:53:47,981 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 13:53:47,991 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:53:47,991 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 13:54:17,112 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 13:54:17,113 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:54:17,116 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 13:54:17,125 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 13:54:17,136 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:03:44,017 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:03:44,017 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:03:44,018 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 14:03:44,041 [Worker-87] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:03:44,041 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:04:37,674 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:04:37,675 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:04:37,684 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 14:04:37,692 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:04:37,699 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:06:59,597 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:06:59,597 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:06:59,598 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 14:06:59,623 [Worker-88] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:06:59,627 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:19:32,284 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:19:32,285 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:19:32,285 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 14:19:32,309 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:19:32,310 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:23:48,769 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:23:48,770 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:23:48,770 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 14:23:48,800 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:23:48,801 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:27:25,277 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:27:25,278 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:27:25,278 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 14:27:25,288 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:27:25,289 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:27:42,249 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:27:42,249 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:27:42,250 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 14:27:42,254 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:27:42,255 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:30:57,913 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:30:57,913 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:30:57,914 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 14:30:57,928 [Worker-90] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:30:57,928 [Worker-90] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:32:56,321 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:32:56,365 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:32:56,382 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 14:32:56,501 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:32:56,501 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:33:49,137 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2017-07-27 14:35:02,826 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:35:02,829 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:35:02,862 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-27 14:35:02,887 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:35:02,889 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-27 14:38:56,282 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-27 14:38:56,286 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:38:56,298 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-27 14:38:56,327 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-27 14:38:56,327 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 17:52:06,682 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 17:52:06,696 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 17:52:06,696 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-30 17:52:06,707 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 17:52:06,720 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 17:55:24,615 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 17:55:24,628 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 17:55:24,629 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-30 17:55:24,733 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 17:55:24,733 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 17:55:39,145 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 17:55:39,145 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 17:55:39,146 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-30 17:55:39,153 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 17:55:39,160 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 17:56:00,079 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 17:56:00,079 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 17:56:00,079 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-30 17:56:00,093 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 17:56:00,094 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:27:32,798 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:27:32,799 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:27:32,800 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-30 21:27:32,820 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:27:32,820 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:27:38,151 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:27:38,151 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:27:38,152 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-30 21:27:38,160 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:27:38,161 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:31:12,389 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:31:12,389 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:31:12,390 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-30 21:31:12,402 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:31:12,403 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:31:41,053 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:31:41,054 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:31:41,054 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-30 21:31:41,069 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:31:41,070 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:37:36,345 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:37:36,346 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:37:36,355 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-30 21:37:36,384 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:37:36,385 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:38:23,356 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:38:23,356 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:38:23,357 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-30 21:38:23,365 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:38:23,365 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:40:07,046 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:40:07,047 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:40:07,047 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-30 21:40:07,078 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:40:07,078 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:57:53,518 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:57:53,519 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:57:53,519 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-30 21:57:53,522 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:57:53,524 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:58:22,729 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:58:22,730 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:58:22,731 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-30 21:58:22,748 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:58:22,758 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:58:30,607 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:58:30,607 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:58:30,608 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-30 21:58:30,639 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:58:30,639 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-30 21:58:40,094 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-30 21:58:40,094 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:58:40,095 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-30 21:58:40,095 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-30 21:58:40,096 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 09:54:18,485 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 09:54:18,486 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 09:54:18,486 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-31 09:54:18,489 [Worker-113] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 09:54:18,489 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 10:31:50,874 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 10:31:50,875 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:31:50,876 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-31 10:31:50,892 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:31:50,893 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 10:44:20,272 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 10:44:20,272 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:44:20,275 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-31 10:44:20,284 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:44:20,285 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 10:48:09,020 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 10:48:09,023 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:48:09,031 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-31 10:48:09,057 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:48:09,058 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 10:53:12,270 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 10:53:12,272 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:53:12,273 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-31 10:53:12,285 [Worker-125] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:53:12,287 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 10:59:02,703 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 10:59:02,703 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:59:02,704 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-31 10:59:02,723 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 10:59:02,724 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 11:01:18,641 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 11:01:18,642 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:01:18,643 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-31 11:01:18,644 [Worker-132] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:01:18,645 [Worker-132] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 11:04:34,808 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 11:04:34,810 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:04:34,811 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-31 11:04:34,814 [Worker-133] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:04:34,814 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 11:11:09,213 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 11:11:09,214 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:11:09,214 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-31 11:11:09,229 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:11:09,230 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 11:11:18,177 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 11:11:18,199 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:11:18,201 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-31 11:11:18,219 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:11:18,222 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 11:13:52,094 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 11:13:52,095 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:13:52,095 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-31 11:13:52,096 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:13:52,096 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 11:21:04,680 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 11:21:04,686 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:21:04,691 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-31 11:21:04,692 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:21:04,693 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 11:21:34,728 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 11:21:34,728 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:21:34,729 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-31 11:21:34,730 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:21:34,730 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-07-31 11:31:37,374 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-07-31 11:31:37,382 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:31:37,387 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-07-31 11:31:37,394 [Worker-136] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-31 11:31:37,394 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 09:14:00,620 [Worker-225] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 09:14:00,641 [Worker-225] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 09:14:00,642 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 09:14:00,648 [Worker-225] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 09:14:00,648 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 10:12:07,682 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 10:12:07,683 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:12:07,686 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 10:12:07,701 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:12:07,702 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 10:28:25,523 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 10:28:25,543 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:28:25,543 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 10:28:25,549 [Worker-241] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:28:25,549 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 10:29:06,430 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 10:29:06,430 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:29:06,444 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 10:29:06,447 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:29:06,455 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 10:31:16,524 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 10:31:16,524 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:31:16,525 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 10:31:16,526 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:31:16,526 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 10:33:11,769 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 10:33:11,769 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:33:11,770 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 10:33:11,772 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:33:11,778 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 10:38:38,038 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 10:38:38,039 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:38:38,039 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 10:38:38,075 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:38:38,075 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 10:38:44,886 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 10:38:44,886 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:38:44,887 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 10:38:44,895 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 10:38:44,896 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 11:49:57,886 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 11:49:57,887 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 11:49:57,887 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 11:49:57,901 [Worker-262] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 11:49:57,901 [Worker-262] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 11:53:52,059 [Worker-264] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 11:53:52,059 [Worker-264] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 11:53:52,059 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 11:53:52,069 [Worker-264] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 11:53:52,069 [Worker-264] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 11:56:41,837 [Worker-254] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 11:56:41,838 [Worker-254] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 11:56:41,839 [Worker-254] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 11:56:41,846 [Worker-254] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 11:56:41,846 [Worker-254] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 11:56:48,348 [Worker-263] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 11:56:48,348 [Worker-263] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 11:56:48,349 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 11:56:48,356 [Worker-263] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 11:56:48,356 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:14:21,796 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:14:21,802 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:14:21,802 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 12:14:21,803 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:14:21,803 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:14:39,051 [Worker-267] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:14:39,052 [Worker-267] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:14:39,052 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 12:14:39,060 [Worker-267] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:14:39,060 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:14:42,505 [Worker-267] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:14:42,511 [Worker-267] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:14:42,511 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 12:14:42,523 [Worker-267] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:14:42,524 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:17:58,889 [Worker-268] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:17:58,889 [Worker-268] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:17:58,889 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 12:17:58,908 [Worker-268] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:17:58,908 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:21:42,158 [Worker-273] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:21:42,162 [Worker-273] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:21:42,162 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 12:21:42,164 [Worker-273] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:21:42,164 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:22:40,814 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:22:40,814 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:22:40,814 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 12:22:40,822 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:22:40,823 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:38:04,890 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:38:04,891 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:38:04,891 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 12:38:04,903 [Worker-279] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:38:04,906 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:40:18,839 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:40:18,840 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:40:18,840 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 12:40:18,845 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:40:18,858 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:43:20,424 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:43:20,425 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:43:20,425 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 12:43:20,431 [Worker-276] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:43:20,431 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:49:31,568 [Worker-283] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:49:31,574 [Worker-283] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:49:31,574 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 12:49:31,583 [Worker-283] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:49:31,585 [Worker-283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:52:20,461 [Worker-285] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:52:20,464 [Worker-285] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:52:20,465 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 12:52:20,471 [Worker-285] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:52:20,471 [Worker-285] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 12:59:47,487 [Worker-287] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 12:59:47,487 [Worker-287] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:59:47,487 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 12:59:47,488 [Worker-287] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 12:59:47,489 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 16:04:27,934 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 16:04:27,937 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 16:04:27,938 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 16:04:27,939 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 16:04:27,939 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 16:19:52,745 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 16:19:52,749 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 16:19:52,749 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 16:19:52,754 [Worker-317] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 16:19:52,754 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 16:41:52,348 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 16:41:52,348 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 16:41:52,350 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-02 16:41:52,353 [Worker-319] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 16:41:52,359 [Worker-319] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 16:44:15,249 [Worker-327] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 16:44:15,254 [Worker-327] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 16:44:15,254 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 16:44:15,258 [Worker-327] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 16:44:15,258 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 17:03:59,697 [Worker-333] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 17:03:59,707 [Worker-333] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 17:03:59,708 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 17:03:59,708 [Worker-333] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 17:03:59,709 [Worker-333] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-02 17:06:03,522 [Worker-334] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-02 17:06:03,523 [Worker-334] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 17:06:03,523 [Worker-334] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-02 17:06:03,524 [Worker-334] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-02 17:06:03,524 [Worker-334] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-07 10:01:58,023 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-07 10:01:58,157 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-07 10:01:58,202 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-07 10:01:58,565 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-07 10:01:58,571 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-07 15:16:32,561 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-07 15:16:32,587 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-07 15:16:32,600 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-08-07 15:16:32,602 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-07 15:16:32,602 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-07 15:17:24,934 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-07 15:17:24,935 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-07 15:17:25,007 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-07 15:17:25,027 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-07 15:17:25,028 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-07 15:20:03,797 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-08-07 15:20:03,799 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-07 15:20:03,814 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2017-08-07 15:20:03,827 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-08-07 15:20:03,828 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ali/Desktop/ALI_SelUpdate/dmcqa/dmcQA/src/test/resources
+2017-08-07 15:20:22,833 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.

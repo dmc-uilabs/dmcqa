@@ -33,6 +33,9 @@ public class ProjectWorkspace {
 	By deleteWorkspace = By.cssSelector("body > div.ng-scope > ui-view > div > div > div > div.content-panel-header > md-toolbar > div > button");
 	By yesDeleteWorkspace = By.cssSelector("body > div.md-dialog-container.ng-scope > md-dialog > div > button:nth-child(2) > span");
 	
+	//Site: https://dev-web2.opendmc.org/project.php#/251/documents
+	//Site: https://dev-web2.opendmc.org/project.php#/251/edit
+	//All other tabs in particular workspace
 	
 	public ProjectWorkspace(WebDriver driver) {
 		//Auto-generated constructor stub
