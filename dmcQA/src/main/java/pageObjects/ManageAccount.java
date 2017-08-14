@@ -19,6 +19,12 @@ public WebDriver driver;
 	By viewProfile = By.xpath("/html/body/div[2]/ui-view/div/div[2]/div/div/md-content/div/md-content/div/div[2]/div[2]/a/span");
 	By save = By.xpath("/html/body/div[2]/ui-view/div/div[2]/div/div/md-content/div/md-content/div/div[2]/div[2]/button");
 	
+	//account basics for member- will be removed so adjust accordingly
+	By orgName = By.cssSelector("input[aria-label='Organization Name']");
+	By selectOrgName = By.cssSelector("li[ng-click='$mdAutocompleteCtrl.select($index)']");
+	By sendRequest = By.cssSelector("button[ng-click='resendNotification()']");
+	By inputToken = By.cssSelector("input[ng-model='token.token']");
+	By verifyButton = By.cssSelector("button[ng-click='verifyToken()']");
 	
 	//privacy
 	By privacy = By.cssSelector("body > div.ng-scope > ui-view > div > div.content-column.left-content.margin-right12-5.flex.flex-20.layout.layout-column > div > div > md-content > md-list > md-list-item:nth-child(3) > a > div.md-list-item-text.layout.layout-column.ng-scope > div");
@@ -26,12 +32,34 @@ public WebDriver driver;
 	By phone = By.id("input_12");
 	By savePrivacy = By.xpath("/html/body/div[2]/ui-view/div/div[2]/div/div/md-content/div[1]/button");
 	
+	//Site: https://dev-web2.opendmc.org/account.php#/543/basics 
+	
 	public ManageAccount(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
-		
 	}
 	
+	//account basics-soon to be removed
+	public WebElement findOrganization()
+	{
+		return driver.findElement(orgName);
+	}
+	public WebElement chooseOrganization()
+	{
+		return driver.findElement(selectOrgName);
+	}
+	public WebElement askToVerify()
+	{
+		return driver.findElement(sendRequest);
+	}
+	public WebElement enterToken()
+	{
+		return driver.findElement(inputToken);
+	}
+	public WebElement verifyAccount()
+	{
+		return driver.findElement(verifyButton);
+	}
 	public WebElement getProfilePage()
 	{
 		return driver.findElement(profile);
