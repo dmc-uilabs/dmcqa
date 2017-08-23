@@ -16,6 +16,9 @@ public class Home {
 	By notifyIcon = By.id("notifications");
 	By request = By.cssSelector("md-menu-item[ng-if='item.unread']");
 	
+	By about = By.xpath("//*[@id='about']/span");
+	By academia = By.id("academia");
+	
 	//Site: https://dev-web2.opendmc.org/#/
 	//By NavBar = By.cssSelector(".nav.navbar-nav.navbar-right>li>a");
 	
@@ -24,7 +27,14 @@ public class Home {
 		this.driver=driver;
 	}
 	
-	
+	public WebElement getAboutFromNavBar()
+	{
+		return driver.findElement(about);
+	}
+	public WebElement getAcademiaTab()
+	{
+		return driver.findElement(academia);
+	}
 	public WebElement getUserMenu()
 	{
 		return driver.findElement(user_menu);

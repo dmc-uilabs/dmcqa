@@ -3,10 +3,13 @@ package automationtesting;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -16,7 +19,7 @@ import pageObjects.Profile;
 import resources.base;
 
 public class accountContactTest extends base {
-	
+	public static Logger Log = LogManager.getLogger(base.class.getName());
 	
 	@BeforeTest
 	public void initialize() throws IOException{
@@ -55,12 +58,12 @@ public class accountContactTest extends base {
 		sleepThreadWait2(); //wait
 
 		//Validate whether phone checkbox is selected by default
-		System.out.println("Before Clicking: Is Phone Checkbox Selected: " + privacy.getPhoneCheckbox().isSelected());
+		Log.info("Before Clicking: Is Phone Checkbox Selected: " + privacy.getPhoneCheckbox().isSelected());
 
 		sleepThreadWait(); //wait
 
 		privacy.getPhoneCheckbox().click();
-		System.out.println("After Clicking: Is Phone Checkbox Selected:  " + privacy.getPhone().isDisplayed());
+		Log.info("After Clicking: Is Phone Checkbox Selected:  " + privacy.getPhone().isDisplayed());
 
 		sleepThreadWait2(); //wait
 		
@@ -76,37 +79,37 @@ public class accountContactTest extends base {
 
 	public static void enterContactInfo(WebDriver driver, WebDriverWait wait, String phoneNum, ManageAccount privacy){
 		//Enter in Phone Number
-		System.out.println("Entering in Contact Information");
+		Log.info("Entering in Contact Information");
 		privacy.getPhone().sendKeys(phoneNum);
 		
 		//Hit the Save button
 		privacy.getSavePrivacy().click();
-		System.out.println("Added Phone Number:" + phoneNum);
+		Log.info("Added Phone Number:" + phoneNum);
 
 		sleepThreadWait2(); //wait
 	
 		//check in my profile if the contact information is visible
-		System.out.println("Currently on " + driver.getTitle() + " Page"); //check page
+		Log.info("Currently on " + driver.getTitle() + " Page"); //check page
 		
 		//driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t");
 		sleepThreadWait2(); //wait
 		driver.get("https://portal.opendmc.org/profile.php#/542");
 		
-		System.out.println("Currently on " + driver.getTitle() + " Page"); //check page
+		Log.info("Currently on " + driver.getTitle() + " Page"); //check page
 		
 		sleepThreadWait2(); //wait
 		
 		Profile p = new Profile(driver);
 		p.getContactTab().click();
 		
-		System.out.println("Is Phone Number Visible: " + p.getPhoneDisplayed().isDisplayed());
+		Log.info("Is Phone Number Visible: " + p.getPhoneDisplayed().isDisplayed());
 
 	}//end of enterContactInfo()
 	
 	public static void removeContactInfo(WebDriver driver, WebDriverWait wait, String phoneNum, ManageAccount privacy){
-		System.out.println("Removing Contact Information");
+		Log.info("Removing Contact Information");
 		
-		driver.navigate().to("https://portal.opendmc.org/account.php#/542/basics");
+		driver.navigate().to("https://dev-web2.opendmc.org/account.php#/542/basics");
 		sleepThreadWait2(); //wait
 		
 	     //Click on Privacy tab
@@ -119,7 +122,7 @@ public class accountContactTest extends base {
 		//Unclick and Save
 		privacy.getPhoneCheckbox().click();
 		privacy.getSavePrivacy().click();
-		System.out.println("Removed Phone Number:" + phoneNum);
+		Log.info("Removed Phone Number:" + phoneNum);
 
 		sleepThreadWait2(); //wait
 
@@ -128,9 +131,9 @@ public class accountContactTest extends base {
 		
 		//driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t");
 		sleepThreadWait2(); //wait
-		driver.get("https://portal.opendmc.org/profile.php#/538");
+		driver.get("https://dev-web2.opendmc.org/profile.php#/538");
 		
-		//System.out.println("Currently on " + driver.getTitle() + " Page"); //check page
+		//Log.info("Currently on " + driver.getTitle() + " Page"); //check page
 		sleepThreadWait2(); //wait
 		Profile p = new Profile(driver);
 		p.getContactTab().click();
@@ -138,5 +141,9 @@ public class accountContactTest extends base {
 
 	}//end of removeContactInfo()
 	
-	
+	@AfterTest
+	public void teardown(){
+		driver.close();
+		driver = null;
+	}
 }

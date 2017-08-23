@@ -1,21 +1,37 @@
 package automationtesting;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import resources.base;
 
 public class aboutSecurity extends base{
+	public static Logger Log = LogManager.getLogger(base.class.getName());
+	@BeforeTest
+	public void initialize() throws IOException{
+		driver = initializeDriver();
+		driver.get(prop.getProperty("url"));
+		login(driver);
+	}
+	
+	@Test
 	public void aboutSecurityTest(){
 		//Navigate to DMC Security Page
 				driver.navigate().refresh();
 				driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-				driver.navigate().to("https://portal.opendmc.org/security.php#/");
+				driver.navigate().to("https://dev-web2.opendmc.org/security.php#/");
 				
 				//Verify that it's on the correct Page
 				String pageTitle = driver.getTitle();
-				System.out.println("Title is " + pageTitle);
+				Log.info("Title is " + pageTitle);
 				Assert.assertTrue(pageTitle.contains("Security"));
 			
 				driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS); //wait
@@ -24,7 +40,7 @@ public class aboutSecurity extends base{
 				
 				//Verify that it's on the correct Page
 				String pageTitle2 = driver.getTitle();
-				System.out.println("Title is " + pageTitle2);
+				Log.info("Title is " + pageTitle2);
 				Assert.assertTrue(pageTitle2.contains("Terms and Conditions"));
 				
 				driver.navigate().back();
@@ -35,9 +51,15 @@ public class aboutSecurity extends base{
 
 				//Verify that it's on the correct Page
 				String pageTitle3 = driver.getTitle();
-				System.out.println("Title is " + pageTitle3);
+				Log.info("Title is " + pageTitle3);
 				Assert.assertTrue(pageTitle3.contains("Contact Us"));
 				//Successful 
-				System.out.println("Test completed - DMC Security Page verifified");
+				Log.info("Test completed - DMC Security Page verifified");
+	}
+	
+	@AfterTest
+	public void teardown(){
+		driver.close();
+		driver = null;
 	}
 }

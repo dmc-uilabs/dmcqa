@@ -11,11 +11,12 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import pageObjects.Home;
 import pageObjects.CompanyProfile;
+import pageObjects.Home;
+import pageObjects.ManageAccount;
 import resources.base;
 
-public class AdminVerify extends base {
+public class Verify extends base{
 	public static Logger Log = LogManager.getLogger(base.class.getName());
 	private StringBuilder VerifyCode = new StringBuilder("");
 	
@@ -23,11 +24,33 @@ public class AdminVerify extends base {
 	public void initialize() throws IOException{
 		driver = initializeDriver();
 		driver.get(prop.getProperty("url"));
+		//GoogleLogin(driver);
 		login(driver);
-
 	}
 
-	
+	//
+	@Test
+	public void VerifySelf()
+	{
+		Home l = new Home(driver);
+		l.getUserMenu().click();
+		sleepThreadWait2();
+		l.getMyAccount().click();
+		sleepThreadWait2();
+		
+		ManageAccount mp = new ManageAccount(driver);
+		mp.findOrganization().clear();
+		mp.findOrganization().sendKeys("DMC QA Organization");
+		sleepThreadWait2();
+		mp.chooseOrganization().click();
+		//start changing from here
+		mp.enterToken().click();
+		//mp.enterToken().sendKeys(codeVerify);
+		sleepThreadWait2();
+		mp.verifyAccount().click();
+		sleepThreadWait();
+		Log.info("Account Successfully Verified");
+	}
 	@Test
 	public void VerifyMember()
 	{
@@ -51,8 +74,8 @@ public class AdminVerify extends base {
 		WebElement el = vm.saveVerificationToken();
 		
 		VerifyCode.append(el.getText());
-		System.out.println(VerifyCode);
-		codeVerify = VerifyCode.toString();
+		//System.out.println(VerifyCode);
+		//codeVerify = VerifyCode.toString();
 		Log.info("saved verification code");
 		vm.closePopUp().click();
 		sleepThreadWait2();
@@ -81,6 +104,7 @@ public class AdminVerify extends base {
 			e.printStackTrace();
 		}
 	}
+
 
 	@AfterTest
 	public void teardown(){
