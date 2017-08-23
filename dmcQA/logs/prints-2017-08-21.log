@@ -1,0 +1,7 @@
+20:36:51.731 [main] INFO  resources.base - Driver is initialized
+20:37:00.562 [main] INFO  resources.base - Navigated to home page
+20:37:03.842 [main] INFO  resources.base - Successfully validated home page title
+09:49:38.709 [main] INFO  resources.base - Successful Login
+09:56:22.770 [main] INFO  resources.base - Successful Logout
+14:47:37.553 [main] INFO  resources.base - Academia Static Page Title is DMC Academia
+14:47:37.744 [main] INFO  resources.base - Before clicking on VIEW ACADEMIC CONTENTfalse

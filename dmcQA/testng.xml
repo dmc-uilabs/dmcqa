@@ -30,4 +30,10 @@
     </classes>
   </test> <!-- Test -->
   
+  <test name="Test About DMC Static Page">
+    <classes>
+      <class name="automationtesting.aboutDMC"/>
+    </classes>
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->

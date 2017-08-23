@@ -84,6 +84,30 @@ public class base {
 		
 		
 	}
+		//Google Login
+		public static void GoogleLogin(WebDriver driver){
+
+			LandingPage l = new LandingPage(driver);
+			l.getLogin().click();
+
+			SelectYourInstitution i = new SelectYourInstitution(driver);
+			i.getGoogle().click();
+
+			LoginPage lp = new LoginPage(driver);
+			
+			lp.getEmailGoogle().sendKeys(System.getenv("Selenium_User2"));
+			sleepThreadWait();
+
+			lp.getNextGoogle().click();
+			
+			sleepThreadWait2();
+			System.out.println(System.getenv("Selenium_Pass2"));
+			lp.getPasswordGoogle().sendKeys(System.getenv("Selenium_Pass2"));
+			sleepThreadWait();
+
+
+			lp.getSignInGoogle().click();
+		}
 	//Function to upload a file / photo
 		public static void fileLocationUpload(String documentLocation){
 			//Go to search bar
